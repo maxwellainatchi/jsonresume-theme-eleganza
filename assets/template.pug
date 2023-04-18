@@ -8,8 +8,9 @@ html(lang="en")
   body
     div(class='content')
       include pug/basics
-      div(class='table padding-container-2')
+      div(class='table')
         div(class='side')
+          include pug/summary
           include pug/skills
           include pug/education
           include pug/certificates
@@ -17,9 +18,9 @@ html(lang="en")
           include pug/references
           include pug/languages
           include pug/interests
-          include pug/links
         div(class='main')
           include pug/work
           include pug/projects
           include pug/publications
           include pug/volunteer
+      include pug/links

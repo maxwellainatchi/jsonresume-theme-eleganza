@@ -1,10 +1,10 @@
 .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: $border-dim;
 
-  ul {
-    list-style: none;
-
-    li {
-      font-size: $font-size-xsmall;
-    }
+  span {
+    font-size: $font-size-xsmall;
   }
 }

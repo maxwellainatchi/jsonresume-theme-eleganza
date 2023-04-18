@@ -11,7 +11,8 @@ a {
   }
 }
 
-p, q {
+p,
+q {
   line-height: $line-height-1;
 }
 
@@ -26,29 +27,33 @@ li {
 .content {
   width: $content-width;
   height: auto;
-  padding: 0 50px;
   margin: $space-2 auto;
   font-family: Raleway, Helvetica, Arial, sans-serif;
   color: $text-color;
-  
+
   border: $border;
 }
 
 .table {
   width: 100%;
-  display: table;
+  display: grid;
+  margin-top: $space-3;
 
-  .main {
-    display: table-cell;
-    width: $content-main-percentage;
-    padding-right: $space-4;
+  .content > & {
+    grid-template-columns: $content-side-percentage $content-main-percentage;
   }
 
   .side {
-    display: table-cell;
-    width: $content-side-percentage;
-    padding-left: $space-4;
-    text-align: left;
+    border-right: $border-dim;
+  }
+
+  :is(.side, .main) {
+    padding: 0 $space-1;
+
+    > div {
+      border-top: $border-dim;
+      padding: 0 $space-1;
+    }
   }
 }
 
@@ -56,12 +61,14 @@ li {
   font-size: $font-size-small;
 
   &:empty {
-    display: none
+    display: none;
   }
 }
 
 .section-title {
   font-size: $font-size-xlarge;
-  font-weight: normal;
+  font-weight: 100;
   margin: 0 0 $space-2 0;
+  font-variant-caps: small-caps;
+  text-align: center;
 }
