@@ -27,9 +27,11 @@ li {
   width: $content-width;
   height: auto;
   padding: 0 50px;
-  margin: 0 auto;
-  font-family: Helvetica, Arial, sans-serif;
+  margin: $space-2 auto;
+  font-family: Raleway, Helvetica, Arial, sans-serif;
   color: $text-color;
+  
+  border: $border;
 }
 
 .table {
@@ -46,7 +48,7 @@ li {
     display: table-cell;
     width: $content-side-percentage;
     padding-left: $space-4;
-    text-align: right;
+    text-align: left;
   }
 }
 

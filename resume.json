@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
   "basics": {
-    "name": "Richard Hendrik",
+    "name": "Richard Hendricks",
     "label": "Software Developer",
     "email": "rhendriks@mail.com",
     "phone": "(912) 555-4321",
@@ -172,42 +172,23 @@
   "skills": [
     {
       "name": "Languages",
-      "keywords": [
-        "Java",
-        "Python",
-        "Javascript",
-        "Rust",
-        "Golang"
-      ]
+      "keywords": ["Java", "Python", "Javascript", "Rust", "Golang"]
     },
     {
       "name": "Frameworks",
-      "keywords": [
-        "Spring",
-        "Django",
-        "Express"
-      ]
+      "keywords": ["Spring", "Django", "Express"]
     },
     {
       "name": "Tools",
-      "keywords": [
-        "VS Code",
-        "Intellij IDEA"
-      ]
+      "keywords": ["VS Code", "Intellij IDEA"]
     },
     {
       "name": "Technologies",
-      "keywords": [
-        "Docker",
-        "AWS"
-      ]
+      "keywords": ["Docker", "AWS"]
     },
     {
       "name": "Other",
-      "keywords": [
-        "Open source",
-        "XP"
-      ]
+      "keywords": ["Open source", "XP"]
     }
   ],
   "languages": [
@@ -261,9 +242,7 @@
       ],
       "startDate": "2018-05-13",
       "url": "https://deno.land/",
-      "roles": [
-        "creator"
-      ]
+      "roles": ["creator"]
     },
     {
       "name": "Node.js",
@@ -276,10 +255,7 @@
       "startDate": "2011-08-26",
       "endDate": "2018-05-12",
       "url": "https://nodejs.org/",
-      "roles": [
-        "contributor",
-        "evangelist"
-      ]
+      "roles": ["contributor", "evangelist"]
     }
   ],
   "meta": {
