@@ -1,3 +1,5 @@
+include pug/mixins
+
 doctype html
 html(lang="en")
   head 
@@ -5,6 +7,9 @@ html(lang="en")
     style
       include styles.css
     title=`Resume ${resume.basics.name} – ${resume.basics.label}`
+    link(href="/fontawesome/css/fontawesome.min.css" rel="stylesheet")
+    link(href="/fontawesome/css/brands.min.css" rel="stylesheet")
+    link(href="/fontawesome/css/solid.min.css" rel="stylesheet")
   body
     div(class='content')
       include pug/basics

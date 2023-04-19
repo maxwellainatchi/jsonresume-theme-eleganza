@@ -5,6 +5,8 @@ div(class='basics')
 if helper.validArray(resume.basics.profiles) || resume.basics.url
   div.basic-details
     if resume.basics.phone
-      a(href=`tel:${resume.basics.phone}`)=resume.basics.phone
+      +withIcon.fa-solid.fa-phone
+        a(href=`tel:${resume.basics.phone}`)=resume.basics.phone
     if resume.basics.email
-      a(href=`mailto:${resume.basics.email}`)=resume.basics.email
+      +withIcon.fa-solid.fa-envelope
+        a(href=`mailto:${resume.basics.email}`)=resume.basics.email

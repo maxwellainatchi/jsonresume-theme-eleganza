@@ -10,8 +10,8 @@ the [v1.0.0 version](https://raw.githubusercontent.com/jsonresume/resume-schema/
 
 ## Todos
 
-- [ ] Add fontawesome icons
-- [ ] Basics section should use icons
+- [x] Add fontawesome icons
+- [x] Basics section should use icons
 - [ ] Social networks should use icons instead of pretty URLs
 - [ ] Adjust spacing
 - [ ] Make it play nicely with printing/PDFs
