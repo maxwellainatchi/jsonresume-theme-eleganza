@@ -8,6 +8,19 @@ the [v1.0.0 version](https://raw.githubusercontent.com/jsonresume/resume-schema/
 - Single font-family
 - Single page? Up to you!
 
+## Todos
+
+- [ ] Add fontawesome icons
+- [ ] Basics section should use icons
+- [ ] Social networks should use icons instead of pretty URLs
+- [ ] Adjust spacing
+- [ ] Make it play nicely with printing/PDFs
+- [ ] Make it smoothly adjust to various numbers of sections added (CSS grid?)
+- [ ] Fix column breaks in the middle of list elements
+- [ ] Add an extension to the JSON Resume standard to allow for custom titles in the `meta` section
+- [ ] Enable displaying meta information only in web version, not print version
+- [ ] Update README
+
 ### Export examples
 
 - [Extended version](docs/resume_extended.pdf)
@@ -129,10 +142,7 @@ This theme supports the following JSON paths
       "startDate": "2012-10-11",
       "endDate": "2014-12-24",
       "summary": "Lorem ipsum...",
-      "highlights": [
-        "Maecenas at dictum sem",
-        "Ut ac ex ac ipsum commodo"
-      ]
+      "highlights": ["Maecenas at dictum sem", "Ut ac ex ac ipsum commodo"]
     }
   ]
 }
@@ -214,10 +224,7 @@ This theme supports the following JSON paths
   "skills": [
     {
       "name": "Languages",
-      "keywords": [
-        "Java",
-        "Python"
-      ]
+      "keywords": ["Java", "Python"]
     }
   ]
 }
@@ -275,10 +282,7 @@ This theme supports the following JSON paths
     "startDate": "2011-08-26",
     "endDate": "2018-05-12",
     "url": "https://nodejs.org/",
-    "roles": [
-      "contributor",
-      "evangelist"
-    ]
+    "roles": ["contributor", "evangelist"]
   }
 }
 ```

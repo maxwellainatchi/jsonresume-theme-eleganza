@@ -18,8 +18,8 @@
       list-style: none;
 
       &:before {
-        content: "· ";
-        vertical-align: middle;
+        content: "– ";
+        color: lighten($color: $text-color, $amount: 40);
       }
     }
   }

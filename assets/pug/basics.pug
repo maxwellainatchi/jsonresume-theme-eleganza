@@ -1,3 +1,10 @@
 div(class='basics')
-  span(class='name')=resume.basics.name
-  span(class='label')=resume.basics.label
+  span.name=resume.basics.name
+  span.label=resume.basics.label
+
+if helper.validArray(resume.basics.profiles) || resume.basics.url
+  div.basic-details
+    if resume.basics.phone
+      a(href=`tel:${resume.basics.phone}`)=resume.basics.phone
+    if resume.basics.email
+      a(href=`mailto:${resume.basics.email}`)=resume.basics.email

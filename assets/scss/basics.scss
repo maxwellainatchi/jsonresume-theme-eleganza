@@ -3,7 +3,9 @@
   flex-direction: column;
   align-items: center;
   border: $border;
-  margin: $space-1 $space-4;
+  margin: $space-4;
+  margin-bottom: calc(1em + $space-2);
+  margin-top: $space-1;
   font-variant-caps: small-caps;
 
   .name {
@@ -21,4 +23,12 @@
     bottom: -0.5em;
     padding: 0 $space-3;
   }
+}
+
+.basic-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: $border-dim;
+  padding: $space-1;
 }

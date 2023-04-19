@@ -1,13 +1,13 @@
 @mixin margin-text($margin-top) {
   margin-top: $margin-top;
   &:empty {
-    display: none
+    display: none;
   }
 }
 
 /* Workaround for 'break-before:avoid' */
 @mixin no-alone($space) {
-  break-inside: avoid;
+  break-inside: avoid-column;
   &::after {
     content: "";
     display: block;

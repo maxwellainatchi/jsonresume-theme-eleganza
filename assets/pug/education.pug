@@ -1,9 +1,11 @@
 if helper.validArray(resume.education)
-  div(class='education margin-container-4')
+  div(class='education margin-container-2')
     p(class='section-title no-alone-1') Education
     div(class='container')
       each edu in resume.education
         div(class='article margin-container-2 no-break')
-          div(class='title markdown')!=helper.mdToHtml(helper.beautifyArray(', ', [edu.studyType, edu.area]))
-          span(class='institution margin-text-2')
+          div(class='title')
             a(href=edu.url)=edu.institution
+          span(class='institution markdown')!=helper.mdToHtml(helper.beautifyArray(', ', [edu.studyType, edu.area]))
+          span(class='institution date')=helper.calcDateRange(edu.startDate, edu.endDate)
+

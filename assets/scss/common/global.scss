@@ -37,10 +37,10 @@ li {
 .table {
   width: 100%;
   display: grid;
-  margin-top: $space-3;
 
   .content > & {
     grid-template-columns: $content-side-percentage $content-main-percentage;
+    border-top: $border-dim;
   }
 
   .side {
@@ -50,7 +50,7 @@ li {
   :is(.side, .main) {
     padding: 0 $space-1;
 
-    > div {
+    > div:not(:first-child) {
       border-top: $border-dim;
       padding: 0 $space-1;
     }
