@@ -1,4 +1,8 @@
-# Actual theme for JSON Resume
+# Eleganza theme for JSON Resume
+
+NOTE: This description is NOT ACCURATE. It describes the base theme I forked from, [Actual](https://github.com/davcd/jsonresume-theme-actual).
+
+The description will be updated eventually.
 
 Minimalist and modern theme for [JSON Resume](https://jsonresume.org/) standard, designed for
 the [v1.0.0 version](https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json).
